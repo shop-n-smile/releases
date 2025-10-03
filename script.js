@@ -4,7 +4,7 @@ let releasesData = null;
 // Load releases data
 async function loadReleases() {
     try {
-        const response = await fetch('/releases.json');
+        const response = await fetch('releases.json');
         if (!response.ok) {
             throw new Error('Failed to load releases');
         }
@@ -12,7 +12,7 @@ async function loadReleases() {
         
         // Initialize page based on current location
         const path = window.location.pathname;
-        if (path === '/' || path === '/index.html') {
+        if (path.endsWith('/') || path.endsWith('/index.html') || path.endsWith('releases/')) {
             initHomePage();
         } else if (path.includes('android')) {
             initAndroidPage();
@@ -187,7 +187,7 @@ function getMockReleases() {
                 version: "1.0.0+10",
                 releaseDate: "2024-10-03",
                 platform: "Android",
-                downloadUrl: "/releases/android/latest/ShopAndSmilePOS.apk",
+                downloadUrl: "releases/android/latest/ShopAndSmilePOS.apk",
                 size: "32MB",
                 description: "Latest stable release with improved performance and bug fixes",
                 prerelease: false
@@ -198,7 +198,7 @@ function getMockReleases() {
                 version: "1.0.0+10",
                 releaseDate: "2024-10-03",
                 platform: "Windows",
-                downloadUrl: "/releases/windows/latest/ShopAndSmilePOS-Setup.exe",
+                downloadUrl: "releases/windows/latest/ShopAndSmilePOS-Setup.exe",
                 size: "45MB",
                 description: "Latest stable release with improved performance and bug fixes",
                 prerelease: false
