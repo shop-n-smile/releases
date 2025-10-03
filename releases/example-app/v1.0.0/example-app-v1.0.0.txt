@@ -1,0 +1,7 @@
+This is an example release file for the Example App v1.0.0
+
+This file demonstrates how to structure and organize release files.
+
+Organization members should replace this with actual application builds.
+
+For a real release, this would be a compiled application, installer, or distributable package.

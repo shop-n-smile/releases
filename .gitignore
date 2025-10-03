@@ -1,0 +1,31 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts (if any)
+dist/
+build/
+*.log
+
+# Don't ignore the releases directory - we want to commit actual releases
+# But ignore any temporary upload files
+releases/**/*.tmp
+releases/**/*.temp
