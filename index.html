@@ -3,41 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop-n-Smile Releases</title>
+    <title>Shop & Smile™ - Download POS Software</title>
+    <meta name="description" content="Download Shop & Smile POS software for Android and Windows. Retail point of sale software built for growth.">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Shop-n-Smile Releases</h1>
-            <p class="subtitle">Download the latest builds of our apps</p>
-        </header>
-
-        <main>
-            <section class="releases-section">
-                <h2>Available Releases</h2>
-                <p class="info-text">Select an application below to view available releases:</p>
-                
-                <div class="releases-grid" id="releases-list">
-                    <!-- Releases will be dynamically loaded or manually added here -->
-                    <div class="app-card">
-                        <h3>Example App</h3>
-                        <p>Latest version: Coming soon</p>
-                        <a href="#" class="btn disabled">No releases yet</a>
-                    </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">Shop & Smile™</div>
+                <div class="nav-links">
+                    <a href="/" class="active">Home</a>
+                    <a href="/android.html">Android</a>
+                    <a href="/windows.html">Windows</a>
                 </div>
-            </section>
+            </div>
+        </div>
+    </nav>
 
-            <section class="instructions">
-                <h2>For Organization Members</h2>
-                <p>To upload a new release, please follow the instructions in the <a href="https://github.com/shop-n-smile/releases/blob/main/README.md">README</a>.</p>
-            </section>
-        </main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Shop & Smile™
+                    <span class="hero-subtitle">Retail Point of Sale Software Built for Growth</span>
+                </h1>
+                <p class="hero-description">
+                    Download our powerful POS system for your retail business. Available for Android tablets and Windows PCs.
+                </p>
+                <div class="button-group">
+                    <a href="/releases/android/latest/ShopAndSmilePOS.apk" class="btn btn-android" download>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.6 11.48 19.44 8.3a.63.63 0 0 0-1.09-.63l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 7.67a.63.63 0 0 0-1.09.63l1.84 3.18a10.81 10.81 0 0 0-5.9 9.02h23a10.81 10.81 0 0 0-5.9-9.02M7 17.25A1.25 1.25 0 1 1 8.25 16 1.25 1.25 0 0 1 7 17.25m10 0A1.25 1.25 0 1 1 18.25 16 1.25 1.25 0 0 1 17 17.25"/>
+                        </svg>
+                        Download for Android
+                    </a>
+                    <a href="/releases/windows/latest/ShopAndSmilePOS-Setup.exe" class="btn btn-windows" download>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
+                        </svg>
+                        Download for Windows
+                    </a>
+                </div>
+                <p class="version-info">Latest version: <span id="latest-version">Loading...</span></p>
+            </div>
+        </div>
+    </section>
 
-        <footer>
-            <p>&copy; 2024 Shop-n-Smile. All rights reserved.</p>
-        </footer>
-    </div>
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon android-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.6 11.48 19.44 8.3a.63.63 0 0 0-1.09-.63l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 7.67a.63.63 0 0 0-1.09.63l1.84 3.18a10.81 10.81 0 0 0-5.9 9.02h23a10.81 10.81 0 0 0-5.9-9.02M7 17.25A1.25 1.25 0 1 1 8.25 16 1.25 1.25 0 0 1 7 17.25m10 0A1.25 1.25 0 1 1 18.25 16 1.25 1.25 0 0 1 17 17.25"/>
+                        </svg>
+                    </div>
+                    <h3>Android POS</h3>
+                    <p>Optimized for Android tablets. Perfect for mobile point of sale operations.</p>
+                    <a href="/android.html" class="feature-link">View all Android releases →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon windows-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
+                        </svg>
+                    </div>
+                    <h3>Windows Desktop</h3>
+                    <p>Full-featured desktop application for Windows 10 and later.</p>
+                    <a href="/windows.html" class="feature-link">View all Windows releases →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Shop & Smile. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
