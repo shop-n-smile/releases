@@ -1,6 +1,22 @@
 {
   "android": [
     {
+      "version": "1.0.0+12",
+      "releaseDate": "2025-10-15",
+      "platform": "Android",
+      "downloadUrl": "/releases/android/latest/ShopAndSmilePOS.apk",
+      "archiveUrl": "/releases/android/archive/v1.0.0+12/ShopAndSmilePOS-Android-v1.0.0+12.zip",
+      "size": "32MB",
+      "description": "Latest stable release with improved performance and bug fixes",
+      "prerelease": false,
+      "changelog": [
+        "Improved checkout performance",
+        "Fixed barcode scanning issues",
+        "Added support for new payment methods",
+        "Enhanced inventory management"
+      ]
+    },
+    {
       "version": "1.0.0+10",
       "releaseDate": "2024-10-03",
       "platform": "Android",
@@ -18,6 +34,22 @@
     }
   ],
   "windows": [
+    {
+      "version": "1.0.0+12",
+      "releaseDate": "2025-10-15",
+      "platform": "Windows",
+      "downloadUrl": "/releases/windows/latest/ShopAndSmilePOS-Setup.exe",
+      "archiveUrl": "/releases/windows/archive/v1.0.0+12/ShopAndSmilePOS-Windows-v1.0.0+12.zip",
+      "size": "13MB",
+      "description": "Latest stable release with improved performance and bug fixes",
+      "prerelease": false,
+      "changelog": [
+        "Improved checkout performance",
+        "Fixed printing issues",
+        "Added support for new payment methods",
+        "Enhanced inventory management"
+      ]
+    },
     {
       "version": "1.0.0+10",
       "releaseDate": "2024-10-03",
