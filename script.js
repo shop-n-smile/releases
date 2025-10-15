@@ -187,7 +187,7 @@ function getMockReleases() {
                 version: "1.0.0+10",
                 releaseDate: "2024-10-03",
                 platform: "Android",
-                downloadUrl: "releases/android/latest/ShopAndSmilePOS.apk",
+                downloadUrl: "releases/releases/android/latest/ShopAndSmilePOS.apk",
                 size: "32MB",
                 description: "Latest stable release with improved performance and bug fixes",
                 prerelease: false
@@ -198,7 +198,7 @@ function getMockReleases() {
                 version: "1.0.0+10",
                 releaseDate: "2024-10-03",
                 platform: "Windows",
-                downloadUrl: "releases/windows/latest/ShopAndSmilePOS-Setup.exe",
+                downloadUrl: "releases/releases/windows/latest/ShopAndSmilePOS-Setup.exe",
                 size: "45MB",
                 description: "Latest stable release with improved performance and bug fixes",
                 prerelease: false
