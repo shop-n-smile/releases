@@ -12,6 +12,16 @@
     },
     {
       "version": "1.0.0+13",
+      "releaseDate": "2025-10-18",
+      "platform": "Android",
+      "downloadUrl": "/releases/releases/android/latest/ShopAndSmilePOS.apk",
+      "archiveUrl": "/releases/releases/android/archive/v1.0.0+13/ShopAndSmilePOS-Android-v1.0.0+13.zip",
+      "size": "32MB",
+      "description": "Stable production release",
+      "prerelease": false
+    },
+    {
+      "version": "1.0.0+13",
       "releaseDate": "2025-10-17",
       "platform": "Android",
       "downloadUrl": "/releases/android/latest/ShopAndSmilePOS.apk",
@@ -80,6 +90,16 @@
     }
   ],
   "windows": [
+    {
+      "version": "1.0.0+13",
+      "releaseDate": "2025-10-18",
+      "platform": "Windows",
+      "downloadUrl": "releases/releases/windows/latest/ShopAndSmilePOS-Setup.exe",
+      "archiveUrl": "/releases/releases/windows/archive/v1.0.0+13/ShopAndSmilePOS-Windows-v1.0.0+13.zip",
+      "size": "13MB",
+      "description": "Stable production release",
+      "prerelease": false
+    },
     {
       "version": "1.0.0+13",
       "releaseDate": "2025-10-18",
